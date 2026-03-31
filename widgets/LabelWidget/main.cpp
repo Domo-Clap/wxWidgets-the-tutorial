@@ -10,6 +10,7 @@
 
 // In the official wxWidgets class reference pages, you can find it here: https://docs.wxwidgets.org/latest/classwx_static_text.html
 
+
 class MyApp : public wxApp
 {
 public:
@@ -40,6 +41,11 @@ public:
         // Lets look at another example of it here
         // For this example, we will provide a specific position and size instead of the default
         wxStaticText* secondHeaderLabel = new wxStaticText(frame, wxID_ANY, "Now we have a second label!", specificPos, specificSize);
+
+
+        // Now we have an important function you can use for StaticText Widgets: SetLabel
+        // As simple as it sounds, it lets you change the string in the widget!
+        headerLabel->SetLabel("New Header Label");
 
         return true;
     }
