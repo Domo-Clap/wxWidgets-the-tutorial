@@ -13,5 +13,5 @@ project ("WxWdigets - Tutorials")
 
 add_subdirectory(widgets/ButtonWidget)
 add_subdirectory(widgets/LabelWidget)
-add_subdirectory(widgets/TextEntryWidget)
+add_subdirectory(widgets/TextCtrlWidget)
 add_subdirectory(widgets/PanelWidget)
